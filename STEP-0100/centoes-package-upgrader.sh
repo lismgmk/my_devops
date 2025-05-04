@@ -14,4 +14,4 @@ fi
 package=$1
 version=$2
 
-dnf install --allow-downgrades -y "${package}-${version}"
+dnf install -y "${package}-${version}"
